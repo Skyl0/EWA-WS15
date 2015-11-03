@@ -43,11 +43,42 @@ html {
 		display: inline-block;
 		margin-left: -400px !important;
 	}
+	
+	td.td-3 {
+		text-align:right;
+	}
+	
+div.footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	line-height: 30px;
+	color: white;
+	background-color: #333;
+	padding: 0 10px;
+}
 
 	
 span.red {
 	color: red;
 }
+
+span.blue {
+	color: blue;
+}
+
+.padding-20 {
+	padding: 20px !important;
+}
+
+span.grey {
+	color: #999;
+}
+
+button.back {
+	margin-top: 20px;
+}
+
 table.bestellung img {
 	width: 100px;
 	height: 100px;
