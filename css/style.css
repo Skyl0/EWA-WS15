@@ -26,49 +26,33 @@ time, mark, audio, video {
   box-sizing: border-box;
 }
 
-h1 {
-	font-size: 26px;
-}
-
-h2 {
-	font-size: 22px;
-}
-
-h3 {
-	font-size: 18px;
-}
-/*
- * Backend CSS
- */
-a {
-	display: block;
-}
 /*
  * Bestellung
  */
-	html {
-		max-width:800px;
-		background: #ccc;
-	}
-	.content_left, .content_right  {
-		box-sizing: border-box;
-		width: 45%; float:left; margin: 0px 2.5% ; border: 1px solid #000;
+html {
+	background-color: white;
+}
+
+	div.contentwrap {
+		margin-top: 20px;
+		border: 1px solid #999;
+		width:800px;
+		background-color: #ddd;
+		position: relative;
+		left: 50%;
+		display: inline-block;
+		margin-left: -400px !important;
 	}
 
-	.endpreis, .td-3 {
-		display:block;
-		text-align: right;
-	}
-	/*
-	 * Lieferstand, Fahrer, Pizzabäcker
-	 */
 	
-i {
-	box-sizing: border-box;
+span.red {
+	color: red;
 }
-	i.fa {
-		height: 16px; width: 16px; border-radius: 16px; border: 2px solid #333; display: inline-block;
-	}
-	i.active {
-		border: 2px solid #0f0;
-	}
+table.bestellung img {
+	width: 100px;
+	height: 100px;
+}
+
+.margin-10 {
+	margin: 10px 0;
+}
