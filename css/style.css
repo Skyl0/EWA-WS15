@@ -1,0 +1,74 @@
+/*
+ * EWA Praktikum
+ * Student: Marc Ernst
+ * MNr: 738702
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 18px;
+}
+/*
+ * Backend CSS
+ */
+a {
+	display: block;
+}
+/*
+ * Bestellung
+ */
+	html {
+		max-width:800px;
+		background: #ccc;
+	}
+	.content_left, .content_right  {
+		box-sizing: border-box;
+		width: 45%; float:left; margin: 0px 2.5% ; border: 1px solid #000;
+	}
+
+	.endpreis, .td-3 {
+		display:block;
+		text-align: right;
+	}
+	/*
+	 * Lieferstand, Fahrer, Pizzabäcker
+	 */
+	
+i {
+	box-sizing: border-box;
+}
+	i.fa {
+		height: 16px; width: 16px; border-radius: 16px; border: 2px solid #333; display: inline-block;
+	}
+	i.active {
+		border: 2px solid #0f0;
+	}
