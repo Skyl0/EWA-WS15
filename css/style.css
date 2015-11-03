@@ -3,6 +3,16 @@
  * Student: Marc Ernst
  * MNr: 738702
  */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -31,6 +41,19 @@ time, mark, audio, video {
  */
 html {
 	background-color: white;
+
+}
+
+html , body {
+	  background-image: url('/images/bg.png');
+  background-repeat: repeat;
+	   font-size: 16px;
+		font-family: "robotoregular", Arial, sans-serif !important;
+}
+
+.progress span {
+	padding-left: 20px;
+	font-size: 15px;
 }
 
 	div.contentwrap {
@@ -58,9 +81,23 @@ div.footer {
 	padding: 0 10px;
 }
 
-	
+button.back {
+	position: absolute; 
+	left: 20px;
+	z-index: 5000;
+}
+
+a.chose {
+	display: block;
+	margin: 20px 0;
+	font-size: 18px;
+}	
 span.red {
 	color: red;
+}
+
+button.delete-item {
+	display:block;
 }
 
 span.blue {
