@@ -106,6 +106,10 @@ form {
 	text-align: right;
 }
 
+#gesamtpreis {
+	text-align: right;
+}
+
 .delete-button {
 	position: relative;
 	display:block;

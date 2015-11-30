@@ -31,7 +31,7 @@
 				<div class="delete-button"><button class="btn btn-danger btn-xs delete-item"  type="button" onclick="deleteItem();"><span class="glyphicon glyphicon-minus"></span> Lösche Auswahl</button></div>
 			</div>
 			<div class="endpreis">
-				<input type="text" id="gesamtpreis" class="form-control margin-10" name="gesamtpreis" readonly value="0.0"/>
+				<input type="text" id="gesamtpreis" class="form-control margin-10" name="gesamtpreis" data-total="0.0" readonly value="0.0"/>
 			</div>
 			<div class="formbuttons">
 				<input type="text" class="form-control margin-10" name="adresse" required />
@@ -39,6 +39,20 @@
 				<button type="submit" class="btn btn-success">Bestellen <span class="glyphicon glyphicon-export"></span></button>
 			</div>
 		</form>
+		
+		<script>
+			function loadDoc() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (xhttp.readyState == 4 && xhttp.status == 200) {
+				  document.getElementById("ajax-field").innerHTML = xhttp.responseText;
+				}
+			  };
+			  xhttp.open("GET", "ajax.txt", true);
+			  xhttp.send();
+			}
+		</script>
+		<div id="ajax-field" class="alert alert-info" onclick="loadDoc()">Mein TEXT</div>
 	</div>
 	
 	</div>

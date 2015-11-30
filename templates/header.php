@@ -19,5 +19,5 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body onload="init()">
 <button class="btn btn-info back" onClick="history.back()"><span class="glyphicon glyphicon-chevron-left"></span> Zurück</button>
