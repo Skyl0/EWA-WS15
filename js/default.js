@@ -1,7 +1,7 @@
 var Preise =
 { Marg: 4.0, Tonn: 4.5, Pros: 5.5 }
 var Details =
-{ Marg: "Margharita 4,00 Eur", Tonn: "Tonno 4,50 Eur", Pros: "Prosciutto 5,50 Eur"} 
+{ Marg: "Margharita 4,00 €", Tonn: "Tonno 4,50 €", Pros: "Prosciutto 5,50 €"} 
 
 function deleteItem() {
 	"use strict";
@@ -27,7 +27,6 @@ function refreshCart() {
 	var preisfeld = document.getElementById('gesamtpreis');
 	
 	console.log("Warenkorb" + warenkorb);
-
 	var result = 0.0;
 	
 	for (var i = 0; i < warenkorb.length; i++) {
