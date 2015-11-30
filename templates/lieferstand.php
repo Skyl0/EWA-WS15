@@ -1,5 +1,6 @@
 <div class="contentwrap padding-20">
-	<h1>Kunde Lieferstand</h1>
+	<h1>Sehr geehrter Herr/Frau Soundso,</h1>
+	<p>hier sehen Sie den Status ihrer Lieferung:</p>
 	<div class="content">
 		<div class="pizza-item">Pizza Margharita
 			<div class="progress">
@@ -27,8 +28,8 @@
 			</div>
 			</div>
 		</div>
-		<div class="legende">
-			(Sobald alle Pizzen den Status "fertig" erhalten, wird ihre Sendung dem nächsten freien Fahrer übergeben. Wir bedanken uns für ihre Geduld.)
+		<div class="alert alert-info" role="alert">
+			Sobald alle Pizzen den Status "fertig" erhalten, wird ihre Sendung dem nächsten freien Fahrer übergeben.<br/>Wir bedanken uns für ihre Geduld.
 		</div>
 	</div>
 </div>
